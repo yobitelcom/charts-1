@@ -49,6 +49,7 @@ image:
   pullPolicy: IfNotPresent
 
 ## Experimental integration with Lucene-powered fulltext search
+## helperimage: Sidecar that connects the individual Pods into a cluster
 searchImage:
   repository: kocolosk/couchdb-search
   tag: 0.1.2
